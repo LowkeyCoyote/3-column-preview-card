@@ -78,7 +78,7 @@ img {
     margin-bottom: 2.2em;
 }
 
-button {
+.button {
     width: 69%;
     padding: 1.2em;
     border-radius: 999em;
@@ -89,32 +89,32 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: transparent;
     transition: 0.2s ease-in-out;
 }
 
-button:hover .orange {
+.button:hover .orange {
     color: var(--light-gray);
 }
 
-button:hover .cyan {
+.button:hover .cyan {
     color: var(--light-gray);
 }
 
-button:hover .dark-cyan {
+.button:hover .dark-cyan {
     color: var(--light-gray);
 }
 
-button .orange {
+.button .orange {
     color: var(--orange-column);
 }
 
-button .cyan {
+.button .cyan {
     color: var(--cyan-column);
 }
 
-button .dark-cyan {
+.button .dark-cyan {
     color: var(--dark-cyan-column);
 }
 
